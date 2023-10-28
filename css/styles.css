@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;300;400;600&family=Press+Start+2P&family=Sacramento&display=swap');
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    color: #20262E
+}
+
+h1{
+    margin: 0px;
+    font-size: 70px;
+    font-family:'Press Start 2P';
+    text-align: center;
+    color: #913175;
+}
+
+p, h3, h2{
+    font-family: 'Montserrat';
+}
+h3, h2{
+    color: #913175;
+    padding-bottom: 10px ;
+}
+
+.top {
+    background-color: #f9deff;
+    padding: 10px;
+    height: 819px;
+    position: relative;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.teksti{
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+    color: #913175;
+}
+
+.logo-img {
+    width: 700px;
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+
+.pfp {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.skillsat-img {
+    width: 300px;
+    float: left;
+}
+
+.skillsat-img2 {
+    width: 300px;
+    float: right;
+}
+
+.skill-row {
+    text-align: left;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    line-height: 2;
+    overflow: hidden; /* Add this line to contain floated elements */
+}
+
+.skillone {
+    padding-top: 20px;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #E9E8E8;
+    width: 7%;
+    border-width: 10px;
+}
+
+.middle-container {
+    margin: 100px 0 30px 0;
+}
+
+.intro {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.skillatEmija {
+    padding-top: 50px;
+}
+
+.bottomi1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bottomi {
+    margin-top: 0;
+    padding-top: 0;
+    width: 50%;
+    margin: 0 auto 50px  auto;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #913174;
+	background:linear-gradient(to bottom, #cd5889 5%, #802d68 100%);
+	background-color:#cd5889;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#e9e8e8;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #701356;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #802d68 5%, #cd5889 100%);
+	background-color:#802d68;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+    background-color: #e88bff;
+    padding: 30px 0 20px;
+}
+
+a {
+    font-family: 'Montserrat';
+    margin: 10px 20px;
+    text-decoration: none;
+    color:#701356;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+.copyright {
+    color: white;
+}
